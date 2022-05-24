@@ -160,68 +160,118 @@
 <div class="section" style="font-family: Montserrat" id="portfolio">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 ml-auto mr-auto">
+      <div class="col ml-auto mr-auto">
         <div class="h4 text-center mb-4 title">Portfolio</div>
       </div>
-    </div>
-    <div class="tab-content gallery mt-5">
+      </div>
+    <div class="tab-content gallery mt-1">
       <div class="tab-pane active" id="web-development">
         <div class="ml-auto mr-auto">
-          <div class="row">
-            <div class="col-md-6">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/DG7t0pSP4bg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <div class="container">
-                <div class="card" style="width:100%;" data-aos="fade-up" data-aos-offset="10">
-                  <div class="row">
-                      <div class="card-body">
-                        <p style="font-family: Montserrat"> Independently developed an audio-visualizer game of approximately 1000 lines of Python code over the course of a month in Processing Programming Environment.Implemented a slightly modified Fast Fourier Transform algorithm to isolate the RMS, amplitude, frequency, and overall energy from a user-inputted sound. 
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/sbyKxcPM70A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <div class="container">
-                <div class="card" style="width: 34rem;" data-aos="fade-up" data-aos-offset="10">
-                  <div class="row">
-                      <div class="card-body">
-                        <p style="font-family: Montserrat"> Programmed a 5-dof robot arm’s kinematics and created a system that followed a constrained path through space. The robot was programmed to pick up Jenga blocks from a feeder and place them to build a tower 6 layers high, with each subsequent layer being rotated 90 degrees. Key concepts utilized includes: Manipulability, Denavit-Hartenberg Transformations, Robot Control using trajectories, and 3D Inverse and Differential Kinematics.
-
-
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div class="card-columns">
+            <div class="card">
+              <iframe width="360" height="300" src="https://www.youtube.com/embed/mSjxGEWKGaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h5 class="card-title">Line Following Robot</h5>
+                <p class="card-text"> Used odometry to build a line-following robot with a light sensor. <br>Code: <a href="https://github.com/malinish/16311-lab3.git"> https://github.com/malinish/16311-lab3.git </a></p>
+              </div>
             </div>
-            <div class="col-md-6">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/XtjTGKbVkmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <div class="container">
-                <div class="card" style="width: 34rem;" data-aos="fade-up" data-aos-offset="10">
-                  <div class="row">
-                      <div class="card-body">
-                        <p style="font-family: Montserrat"> Autonomously controlled an AV robot to ensure safety while avoiding obstacles on a slippery surface. Utilized LIDAR sensors, raspberry pi, and IMU sensors to program the AV’s throttle and steering functions using a closed-loop system and by defining the state space representation of a lateral model.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+            <div class="card">
+              <iframe width="360" height="300" src="https://www.youtube.com/embed/0LGVYOMzuak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h5 class="card-title">Urban Search and Rescue Robot</h5>
+                <p class="card-text"> Created a robust robot that's able to navigate a mock-disaster environment and complete mapping and manipulation tasks remotely. <br> Code: <a href="https://github.com/malinish/16311-lab7.git"> https://github.com/malinish/16311-lab7.git </a></p>
+              </div>
+            </div>
+            <div class="card">
+              <iframe width="360" height="300" src="https://www.youtube.com/embed/MOSHbb5JWpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h5 class="card-title">Path Planning Lab</h5>
+                <p class="card-text">Using A* algorithm and a known map, the best path avoiding obstacles was found. Code: <a href="https://github.com/malinish/16311-lab5"> https://github.com/malinish/16311-lab5 </a></p>
+              </div>
+            </div>
+            <div class="card">
+              <iframe width="360" height="300" src="https://www.youtube.com/embed/vNvfBUQzvpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              <div class="card-body">
+                <h5 class="card-title">Playing with Circuits</h5>
+                <p class="card-text"> Constructed a circuit with a light sensor that shuts off when covered. </p>
+              </div>
+            </div>
+            <div class="card">
+              <iframe width="360" height="300" src="https://www.youtube.com/embed/sbyKxcPM70A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              <div class="card-body">
+                <h5 class="card-title">Robot Kinematics and Dynamics Capstone</h5>
+                <p class="card-text"> Programmed a 5-dof robot arm's kinematics and created a system that followed a constrained path. The robot was programmed to pick up Jenga blocks from a feeder and place them to build a tower 6 layers high, with
+                  each subsequent layer being rotated 90 degrees. <br> Code: <a href="https://github.com/MN-Hogwarts/RKD-Capstone.git"> https://github.com/MN-Hogwarts/RKD-Capstone.git </a></p>
+              </div>
+            </div>
+            <div class="card">
+              <iframe width="360" height="300" src="https://www.youtube.com/embed/Fzi_SZldPUc" title="YouTube video player" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h5 class="card-title">Self Balancing Robot</h5>
+                <p class="card-text"> Created a 2-wheel inverted pendulum capable of balancing itself using PID. <br> Code: <a href="https://github.com/malinish/16311-lab4.git"> https://github.com/malinish/16311-lab4.git </a></p>
+              </div>
+            </div>
+
+              <div class="card">
+                <iframe width="360" height="300" src="https://www.youtube.com/embed/4uDu3rSJ38M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+                <div class="card-body">
+                  <h5 class="card-title">No-wheel Robot</h5>
+                  <p class="card-text">Designed a robot that can walk a specified distance without wheels. <br> Code: <a href="https://github.com/malinish/16311-lab8.git"> https://github.com/malinish/16311-lab8.git </a></p>
                 </div>
+              </div>
+              <div class="card">
+                <iframe width="360" height="300" src="https://www.youtube.com/embed/A4zL09ffWhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="card-body">
+                  <h5 class="card-title">Faulty Robot Study</h5>
+                  <p class="card-text"> Conducted a semester-long research study to investigate whether the degree of faultiness impacts trust and likability of a robot. See the Research paper <a href="Faulty_Robot_HRI_Study.pdf">here.</a> </p>
+                </div>
+              </div>
+              <div class="card">
+                <iframe width="360" height="300" src="https://www.youtube.com/embed/XtjTGKbVkmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="card-body">
+                  <h5 class="card-title">Fundamentals of Controls Final Project</h5>
+                  <p class="card-text"> Autonomously controlled an AV robot to ensure safety while avoiding obstacles on a slippery surface. <br> Code: <a href="https://github.com/akalkar15/Fundamentals-of-Control-Project.git"> https://github.com/akalkar15/FoC.git </a> </p>
+                </div>
+              </div>
+
+            <div class="card">
+              <iframe width="360" height="300" src="https://www.youtube.com/embed/MQiE4M1pXG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              <div class="card-body">
+                <h5 class="card-title">Localization Robot</h5>
+                <p class="card-text"> Robot able to determine its location along a circular path using a probabilistic method. Code: <a href="https://github.com/malinish/16311-lab6.git"> https://github.com/malinish/16311-lab6.git </a> </p>
+              </div>
+            </div>
+            <div class="card">
+              <iframe width="360" height="300" src="https://www.youtube.com/embed/jBP1yZQrGz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              <div class="card-body">
+                <h5 class="card-title">Inverse Kinematics Robot Arm</h5>
+                <p class="card-text"> Move a robot arm around obstacles using Inverse Kinematics to get to a desired end-effector location. <br> Code: <a href="https://github.com/malinish/16311-lab9.git"> https://github.com/malinish/16311-lab9.git </a></p>
+              </div>
+            </div>
+            <div class="card">
+              <iframe width="360" height="300" src="https://www.youtube.com/embed/DG7t0pSP4bg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              <div class="card-body">
+                <h5 class="card-title">15-112 Term Project</h5>
+                <p class="card-text"> Independently developed an audio-visualizer game over the course of a month in Processing Programming Environment. Code: <a href="https://github.com/akalkar15/15-112-Term-Project.git"> https://github.com/akalkar15/15-112-Term-Project.git </a></p>
+              </div>
+            </div>
               
-                <img src="images/spotify.png" alt="Simply Easy Learning" width="3000" height="315" style="padding-bottom: 0px">
-                <div class="container">
-                  <div class="card" style="width: 34rem;" data-aos="fade-up" data-aos-offset="10">
-                    <div class="row">
-                        <div class="card-body">
-                          <p style="font-family: Montserrat"> Used Spotipy, a Python library for Spotify’s Web API, and flask to create a program that takes multiple people’s usernames and creates a playlist that combine’s each user’s unique music taste as well as prints a compatibility score. 
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+              
+              </div>
+            </div>
           </div>
+
+            
+            
+      
+              
         </div>
       </div>
+    </div>
       
       
     </div>
